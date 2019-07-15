@@ -1,0 +1,25 @@
+.gen {
+    background-color: red;
+}
+.gen-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: .6em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: .4em;
+    font-size: 1em;
+    font-weight: bold
+  }
+
+  .gen-field {
+    padding: .6em;
+    margin-left: 2em; 
+    text-align: center;
+    display: inline-block;
+    border-radius: .4em;
+    font-size: 1em;
+    font-weight: bold
+  }
