@@ -1,3 +1,7 @@
+.grn {
+  background-color: green;
+}
+
 .list-group {
   width: 75%;
   margin: auto;
@@ -7,8 +11,9 @@
 
 
 .list-group-item {
-  color: white;
+  color: black;
   font-weight: 500;
+  background-color: inherit;
 }
 
 .PC {
@@ -16,25 +21,21 @@
 }
 
 .list-group > .active {
+  /* color: yellow; */
+  color: blue;
   background-color: orange;
-  color: black;
   font-weight: bolder;
 }
 
 .enemy {
   background-color: rosybrown;
-  color: maroon;
-  font-weight:bolder;
+  /* font-weight:bolder; */
 }
 
 .unconscious {
   background-color: darkslategray;
-  color: red;
 }
 
-.PC {
-  background-color: green;
-}
 
 .NPC {
   background-color: gray;
@@ -47,4 +48,28 @@
 .name {
   float: left;
   padding-left: 3em;
+}
+
+.tracker {
+  background-color: yellow;
+}
+
+.active > .name::before {
+  padding-right: 1em;
+  content: "★ ";
+  /* background-color: inherit */
+}
+
+.add-char {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  margin: .6em;
+  padding: .6em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: .4em;
+  font-size: 1em;
+  font-weight: bold
 }

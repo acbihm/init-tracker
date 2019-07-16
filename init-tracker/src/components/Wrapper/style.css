@@ -1,18 +1,18 @@
 body {
     font-size: 1rem;
     font-weight: bold;
-    color: blue;
+    color: white;
     width: 98%;
     /* margin: auto; */
     background-color: #5074ad;
-    margin: auto;
+    margin: 0 auto;
     /* border-radius: .4em; */
     /* min-height: 5em; */
 }
 
 h1, h2, h3, h4, h5 {
     padding: .5em 1em .5em 1em;
-    background-color: white;
+    background-color: #2a4673;
     border: .1em darkblue outset;
     border-radius: .4em;
     width: flex;
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    margin: .6em;
+    margin: .6em auto;
     padding: .6em;
     /* background-color: peachpuff; */
     border-radius: .4em;

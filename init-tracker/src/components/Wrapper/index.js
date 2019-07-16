@@ -4,6 +4,7 @@ import React, { Fragment } from "react";
 // import GameWrapper from "./components/GameWrapper";
 import HeaderText from "../HeaderText";
 import List from "../List";
+import Footer from "../Footer"
 class Wrapper extends React.Component {
 
     render() {
@@ -12,6 +13,7 @@ class Wrapper extends React.Component {
                 <HeaderText />
 
                 <List />
+                <Footer />
             </Fragment>
         );
     }

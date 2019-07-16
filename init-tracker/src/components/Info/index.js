@@ -8,7 +8,7 @@ class Info extends React.Component {
     render() {
         return (
             <Fragment>
-                <p> Info here info here gfrsdagdfsx rfedsx <br></br>Info here info here info here
+                <p class="para info"> Info here info here gfrsdagdfsx rfedsx <br></br>Info here info here info here
                 <br></br> Info here info here info here Info here info here info here
                 <br></br> Info here infredsxfo here info here</p>
 
