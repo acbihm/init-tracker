@@ -7,23 +7,24 @@ class List extends React.Component {
             <Fragment class="grn">
                 <ul class="list-group">
                     <li class="list-group-item PC active"><span class="name">Player char 1</span>
-                        <span class="tracker"></span></li>
-                        
+                        <span class="tracker">test</span></li>
+
                     <li class="list-group-item PC"><span class="name">Player char 2</span>
-                        <span class="tracker"></span></li>
-                        
+                        <span class="tracker">test</span></li>
+
                     <li class="list-group-item enemy"><span class="name">Enemy</span>
-                        <span class="tracker"></span></li>
-                        
+                        <span class="tracker">test</span></li>
+
                     <li class="list-group-item empty"><span class="name">Please enter a name</span>
-                        <span class="tracker"></span></li>
-                        
+                        <span class="tracker">test</span></li>
+
                     <li class="list-group-item empty"><span class="name">Please enter a name</span>
-                        <span class="tracker"></span></li>
-                        
+                        <span class="tracker">test</span></li>
+
                     <li class="list-group-item empty"><span class="name">Please enter a name</span>
-                        <span class="tracker"></span></li>
-                        
+                        <span class="tracker"><input type="text" value="3Bf" class="notes"></input>
+                        </span></li>
+
                 </ul>
                 <button class="add-char">
                     Add character

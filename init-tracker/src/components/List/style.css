@@ -4,9 +4,11 @@
 
 .list-group {
   width: 75%;
-  margin: auto;
+  margin: .5em auto;
+  padding: .5em 0 1em 0;
   border: .3em darkblue outset;
   border-radius: .6em;
+  padding-right: 6em;
 }
 
 
@@ -14,9 +16,13 @@
   color: black;
   font-weight: 500;
   background-color: inherit;
-  margin: .35em 0;
-  border-top: .1em black dashed;
+  margin: .5em .5em;
+  border-top: .2em black solid;
+  border-left: .3em black solid;
+  border-bottom: .05em black solid;
+  border-radius: .4em;
 }
+
 
 .PC {
   background-color: green;
@@ -29,31 +35,27 @@
   font-weight: bolder;
 }
 
-.enemy {
-  background-color: rosybrown;
-  /* font-weight:bolder; */
-}
 
-.unconscious {
-  background-color: darkslategray;
-}
-
-
-.NPC {
-  background-color: gray;
-}
-
-.empty {
-  background-color: lightgray;
-}
 
 .name {
   float: left;
   padding-left: 3em;
+  /* background-blend-mode: lighten; */
+  /* background-color: red; */
+  
 }
 
 .tracker {
-  background-color: yellow;
+ float: right;
+}
+
+.tracker::after {
+  content: " aaa";
+  position: fixed;
+  transform: translate(3em,-.5em);
+  background-color: white;
+  padding: .5em;
+  border-radius: .8em;
 }
 
 .active > .name::before {
@@ -76,3 +78,24 @@
   font-weight: bold
 }
 
+
+
+
+
+.enemy {
+  background-color: rosybrown;
+  /* font-weight:bolder; */
+}
+
+.unconscious {
+  background-color: darkslategray;
+}
+
+
+.NPC {
+  background-color: gray;
+}
+
+.empty {
+  background-color: lightgray;
+}
