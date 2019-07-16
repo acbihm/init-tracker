@@ -4,6 +4,7 @@ import React, { Fragment } from "react";
 // import GameWrapper from "./components/GameWrapper";
 import Gen from "../Gen";
 import Load from "../Load"
+import Info from "../Info";
 class HeaderText extends React.Component {
 
     render() {
@@ -12,7 +13,7 @@ class HeaderText extends React.Component {
                 <h1>Turn Tracker</h1>
                 <Gen />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <Load />
-                <p>enter info</p>
+                <Info />
             </Fragment>
         );
     }

@@ -1,5 +1,6 @@
 .gen {
     background-color: red;
+    margin: .4em 0;
 }
 .gen-button {
     background-color: #4CAF50; /* Green */

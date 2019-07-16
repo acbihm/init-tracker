@@ -11,8 +11,7 @@ function App() {
       <Wrapper>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-
-          {/* <HeaderText /> */}
+          
         </header>
       </Wrapper>
     </div>

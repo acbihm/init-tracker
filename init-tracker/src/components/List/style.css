@@ -1,0 +1,50 @@
+.list-group {
+  width: 75%;
+  margin: auto;
+  border: .3em darkblue outset;
+  border-radius: .6em;
+}
+
+
+.list-group-item {
+  color: white;
+  font-weight: 500;
+}
+
+.PC {
+  background-color: green;
+}
+
+.list-group > .active {
+  background-color: orange;
+  color: black;
+  font-weight: bolder;
+}
+
+.enemy {
+  background-color: rosybrown;
+  color: maroon;
+  font-weight:bolder;
+}
+
+.unconscious {
+  background-color: darkslategray;
+  color: red;
+}
+
+.PC {
+  background-color: green;
+}
+
+.NPC {
+  background-color: gray;
+}
+
+.empty {
+  background-color: lightgray;
+}
+
+.name {
+  float: left;
+  padding-left: 3em;
+}
