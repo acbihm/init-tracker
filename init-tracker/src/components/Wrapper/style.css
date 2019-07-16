@@ -1,5 +1,7 @@
 body {
     font-size: 1rem;
+    line-height: 1em;
+    letter-spacing: .02em;
     font-weight: bold;
     color: white;
     width: 98%;
@@ -8,7 +10,13 @@ body {
     margin: 0 auto;
     /* border-radius: .4em; */
     /* min-height: 5em; */
+    font-family: 'Titillium Web', sans-serif;
+
+    /* font-family: 'Russo One', sans-serif; */
+    min-height: 100%;
 }
+
+
 
 h1, h2, h3, h4, h5 {
     padding: .5em 1em .5em 1em;
@@ -17,6 +25,7 @@ h1, h2, h3, h4, h5 {
     border-radius: .4em;
     width: flex;
     margin: .5em auto;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 p {
